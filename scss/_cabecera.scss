@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: $color-background-nav;
+        &_img {
+            height: 30%;
+            margin-right: 20px; 
+        }
+        &_menu {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin-right: 20px; 
+            font-style: oblique;
+            a {
+                text-decoration: none;
+                color: $color-texto-principal;
+                font-size: 20px;
+                }
+            }
+    
+        &_boton {
+            background-color: $color-btn-reg;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            font-size: 16px;
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+                &:hover {
+                    background-color: #272e35;
+                }
+        }
+    }
