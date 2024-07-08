@@ -6,6 +6,7 @@
     background-color: $color-background-nav;
         &_img {
             height: auto;
+            border:5px solid #e7e0e0;
             max-width: 100%;
             margin-right: 20px; 
         }
@@ -47,5 +48,8 @@
     .nav-link{
         color: $color-texto-principal;
         font-size: 20px;
-    }
-   
+        transition: 1s;
+    } 
+    .nav-link:hover{
+        transform: translate(0px,-10px);
+}
