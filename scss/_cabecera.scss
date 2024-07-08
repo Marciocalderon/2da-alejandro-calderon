@@ -1,14 +1,18 @@
-.nav {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0px;
     background-color: $color-background-nav;
         &_img {
-            height: 30%;
+            height: auto;
+            max-width: 100%;
             margin-right: 20px; 
         }
         &_menu {
+            background-color: $color-background-nav;
+            height: auto;
+            width: auto;
             list-style: none;
             display: flex;
             gap: 15px;
@@ -35,4 +39,13 @@
                     background-color: #272e35;
                 }
         }
+       
     }
+    .container-fluid{
+        background-color: $color-background-nav;
+    }
+    .nav-link{
+        color: $color-texto-principal;
+        font-size: 20px;
+    }
+   
