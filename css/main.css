@@ -196,13 +196,16 @@ footer {
   padding: 10px;
   background-color: #f1f1f1;
 }
-footer h2 {
-  color: #556;
-}
-footer a img {
+
+a img {
   width: 30px;
   height: 30px;
   margin: 0 10px;
+}
+
+.h2_footer {
+  color: #556;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=main.css.map */

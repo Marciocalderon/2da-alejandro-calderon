@@ -2,8 +2,6 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #f1f1f1;
-    h2{
-        color: $color-texto-principal
     }
     a{
         img {
@@ -12,4 +10,7 @@ footer {
         margin: 0 10px;
     }
     }
+    .h2_footer{
+        color: $color-texto-principal;
+        font-size: 16px;
 }
