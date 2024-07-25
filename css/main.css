@@ -10,27 +10,20 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px;
-  background-color: #76f365;
-}
-.navbar_img {
-  height: auto;
-  border: 5px solid #e7e0e0;
-  max-width: 100%;
-  margin-right: 20px;
+  background-color: #ddf1db;
 }
 .navbar_menu {
-  background-color: #76f365;
+  background-color: #ddf1db;
   height: auto;
   width: auto;
   list-style: none;
   display: flex;
   gap: 15px;
-  margin-right: 20px;
   font-style: oblique;
 }
 .navbar_menu a {
   text-decoration: none;
-  color: #556;
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 .navbar_boton {
@@ -48,12 +41,21 @@
   background-color: #272e35;
 }
 
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: auto;
+  font-size: 50px;
+  padding: 10px;
+  max-width: 100%;
+  margin-right: 20px;
+}
+
 .container-fluid {
-  background-color: #76f365;
+  background-color: #ddf1db;
 }
 
 .nav-link {
-  color: #556;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   transition: 1s;
 }
@@ -63,28 +65,33 @@
 }
 
 main {
-  background-color: #97e18e;
+  background-image: url(../assets/pexels-bianca-beltran-3824520-16134441.jpg);
 }
 
 h1 {
-  font-size: 50px;
-  color: #556;
+  font-size: 40px;
+  padding-top: 20px;
+  color: rgb(0, 0, 0);
 }
 
 h2 {
   font-size: 40px;
-  color: #556;
+  color: rgb(0, 0, 0);
 }
 
 .descripcion {
   padding: 20px;
   margin: 0;
-  color: #556;
+  color: rgb(0, 0, 0);
   max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+.descripcion p {
+  column-count: 2;
+  column-gap: 30px;
 }
 .descripcion img {
   max-width: 100%;
@@ -110,7 +117,7 @@ h2 {
 }
 .productos p {
   font-size: 14px;
-  color: #556;
+  color: rgb(0, 0, 0);
 }
 .productos h3 {
   font-size: 20px;
@@ -191,6 +198,11 @@ h2 {
     transform: scale3d(1, 1, 1);
   }
 }
+.quienes-somos p {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
 footer {
   text-align: center;
   padding: 10px;
@@ -203,9 +215,9 @@ a img {
   margin: 0 10px;
 }
 
-.h2_footer {
-  color: #556;
-  font-size: 16px;
+.title {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
